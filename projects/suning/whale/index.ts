@@ -54,7 +54,7 @@ function loopCollect(): void {
 
   setInterval(() => {
     runCollect();
-  }, 10 * 60 * 1000);
+  }, 60 * 60 * 1000);
 }
 
 export { runWithRetry, loopCollect };
